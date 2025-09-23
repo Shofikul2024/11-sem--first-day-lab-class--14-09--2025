@@ -1,0 +1,11 @@
+successfully   read  the  file 
+
+ 3. Reading a File
+with open("assets/example.text", "r") as file:
+    content = file.read()
+    print(content)
+
+
+ 
+
+ এখানে "r" মানে read mode। ফাইল থেকে ডেটা পড়া হচ্ছে এবং কনসোলে প্রিন্ট করা হচ্ছে।
